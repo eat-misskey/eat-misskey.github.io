@@ -11,13 +11,13 @@ export default defineConfig({
     ],
 
     sidebar: [
-      // {
-      //   text: 'Examples',
-      //   // items: [
-      //   //   { text: 'Markdown Examples', link: '/markdown-examples' },
-      //   //   { text: 'Runtime API Examples', link: '/api-examples' }
-      //   // ]
-      // }
+      {
+        text: 'Overview',
+        items: [
+          { text: 'Sharkey/Misskey 食用指南', link: '/' },
+          { text: '为什么要选择Fediverse？', link: '/docs/why-fediverse' }
+        ]
+      }
     ],
 
     socialLinks: [
